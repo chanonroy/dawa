@@ -1,0 +1,135 @@
+/* ===========================================================
+                     General CSS
+ ========================================================== */
+
+
+/* ===========================================================
+                     Navigation Bar
+ ========================================================== */
+
+.logo {
+  width: 40px;
+}
+
+#brand-text {
+  color: rgba(35, 106, 189, 0.86);
+  font-weight: bold;
+  font-size: 26px;
+  margin-left: 20px;
+}
+
+/*.navbar-default .navbar-brand {
+  color: rgba(35, 106, 189, 0.86);
+  font-weight: bold;
+  font-size: 26px;
+}*/
+
+.navbar-nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ .nav.navbar-nav.navbar-right li a {
+  color: rgba(35, 106, 189, 0.86);
+  font-size: 18px;
+  font-weight: bold;
+}
+.nav.navbar-nav.navbar-right li a:hover {
+  color: rgba(22, 120, 41, 0.85);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+ /* ===========================================================
+                        Jumbotron
+ ========================================================== */
+
+ .jumbotron {
+   display: flex;
+   height: 60vh;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+   background: #000 url("../imgs/mountain.jpg") top;
+   background-size: cover;
+   overflow: hidden;
+
+   /*-webkit-filter: blur(5px);
+   -moz-filter: blur(5px);
+   -o-filter: blur(5px);
+   -ms-filter: blur(5px);
+   filter: blur(5px);*/
+
+   color: white;
+   text-shadow: black 0.2em 0.2em 0.2em;
+
+ }
+
+ /* ===========================================================
+                       Our Services
+ ========================================================== */
+
+#services-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.serv-item {
+
+  margin-bottom: 20px;
+}
+
+.fa-home {
+  color: #38A0E0;
+}
+
+.fa-building {
+  color: #EB5B5B;
+}
+
+.fa-shield {
+  color: #F2CC1F;
+}
+
+.fa-leaf {
+  color: #79DE5D;
+}
+
+ /* ===========================================================
+                        About Us
+ ========================================================== */
+
+#story-background {
+  padding: 50px;
+  background-color: #55B567;
+  color: white;
+}
+
+#story-background > h1, h2 {
+  text-align: center;
+}
+
+.photograph {
+  height: 300px;
+  width: 300px;
+  border-radius:
+  background-color: white;
+}
+
+.story-container {
+  display: flex;
+}
+
+.about-text {}
+
+ /* ===========================================================
+                         Pricing
+ ========================================================== */
+
+
+ /* ===========================================================
+                       Contact
+ ========================================================== */
