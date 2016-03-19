@@ -2,7 +2,7 @@
                      General CSS
  ========================================================== */
 
-* {
+body {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -59,15 +59,23 @@
    background-size: cover;
    overflow: hidden;
 
-   /*-webkit-filter: blur(5px);
-   -moz-filter: blur(5px);
-   -o-filter: blur(5px);
-   -ms-filter: blur(5px);
-   filter: blur(5px);*/
-
    color: white;
-   text-shadow: black 0.2em 0.2em 0.2em;
 
+ }
+
+ .jumbo-text {
+   margin-bottom: 30px;
+   font-size: 1.5em;
+ }
+
+ .quote-button {
+   width: 150px;
+   height: 50px;
+   background-color: #55B567;
+   padding: 10px;
+   border-radius: 20px;
+   font-size: 1.3em;
+   text-align: center;
  }
 
  /* ===========================================================
@@ -105,9 +113,11 @@
  ========================================================== */
 
 #story-background {
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #55B567;
   color: white;
+  height: 500px;              /* hard coded the height */
 }
 
 #story-background > h1, h2 {
@@ -115,23 +125,60 @@
 }
 
 .photograph {
-  height: 300px;
-  width: 300px;
-  border-radius:
+  height: 250px;
+  width: 250px;
+  float: left;
+  border-radius: 25px;
   background-color: white;
 }
 
-.story-container {
-  display: flex;
+.about-text {
 }
 
-.about-text {}
+/* ===========================================================
+                        Testimonials
+========================================================== */
+
+#testimonial-background {
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+
+#testimonial-background > .container {
+ display: flex;
+ justify-content: center;
+}
+
+
 
  /* ===========================================================
                          Pricing
  ========================================================== */
 
+#pricing-background {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#pricing-background > .container {
+  display: flex;
+  justify-content: center;
+}
+
+
 
  /* ===========================================================
                        Contact
  ========================================================== */
+
+ #contact-background {
+   padding-top: 50px;
+   padding-bottom: 50px;
+   background-color: #278AAB;
+   color: white;
+ }
+
+ #contact-background > .container {
+   display: flex;
+   justify-content: center;
+ }
