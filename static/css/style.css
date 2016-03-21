@@ -122,17 +122,20 @@ body {
 
 #story-background > h1, h2 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .photograph {
-  height: 250px;
-  width: 250px;
-  float: left;
-  border-radius: 25px;
+  height: 300px;
+  width: 300px;
+  float: right;
+  border-radius: 10px;
   background-color: white;
+  margin-left: 30px;
 }
 
 .about-text {
+  margin-bottom: 20px;
 }
 
 /* ===========================================================
@@ -160,9 +163,13 @@ body {
   padding-bottom: 50px;
 }
 
-#pricing-background > .container {
-  display: flex;
-  justify-content: center;
+/*#pricing-background > .container {
+
+}*/
+
+.price-text {
+  margin: 20px;
+  text-align: center;
 }
 
 
@@ -174,11 +181,18 @@ body {
  #contact-background {
    padding-top: 50px;
    padding-bottom: 50px;
-   background-color: #278AAB;
+   background-color: #3F6470;
    color: white;
  }
 
  #contact-background > .container {
    display: flex;
    justify-content: center;
+ }
+
+ #contact-base {
+   padding-top: 5px;
+   padding-bottom: 5px;
+   background-color: #314D57;
+   /*background-color: #278AAB;*/
  }
