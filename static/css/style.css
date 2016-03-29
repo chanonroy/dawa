@@ -4,6 +4,11 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* ===========================================================
@@ -37,11 +42,22 @@ body {
   font-size: 18px;
 }
 .nav.navbar-nav.navbar-right li a:hover {
-  color: rgba(22, 120, 41, 0.85);
+  color: #55B567;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
+}
+
+/* --------- Fixed Navigation Solution ----------- */
+
+.navfix:before {
+  display: block;
+  position: relative;
+  margin-top: -80px;
+  height: 80px;
+  content: " ";
+  visibility: hidden;
 }
 
  /* ===========================================================
@@ -66,24 +82,37 @@ body {
  .jumbo-text {
    margin-bottom: 30px;
    font-size: 1.5em;
+   text-shadow: black 0.05em 0.05em 0.05em;
  }
 
  .quote-button {
-   width: 150px;
+   width: 250px;
    height: 50px;
    background-color: #55B567;
+   color: white;
    padding: 10px;
    border-radius: 20px;
    font-size: 1.3em;
    text-align: center;
+   text-direction: none;
+   margin: 20px auto;
  }
+
+
+.quote-button:hover, .quote-button:active {
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 0px 30px 2px #55B567;
+    -moz-box-shadow: 0px 0px 30px 2px #55B567;
+    -webkit-box-shadow: 0px 0px 30px 2px #55B567;
+}
 
  /* ===========================================================
                        Our Services
  ========================================================== */
 
 #services-container {
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 50px;
 }
 
@@ -100,7 +129,7 @@ body {
   color: #EB5B5B;
 }
 
-.fa-shield {
+.fa-star {
   color: #F2CC1F;
 }
 
@@ -117,7 +146,6 @@ body {
   padding-bottom: 50px;
   background-color: #55B567;
   color: white;
-  height: 500px;              /* hard coded the height */
 }
 
 #story-background > h1, h2 {
@@ -125,13 +153,13 @@ body {
   margin-bottom: 20px;
 }
 
-.photograph {
+.photograph > img {
   height: 300px;
   width: 300px;
+  border: solid 15px white;
   float: right;
   border-radius: 10px;
-  background-color: white;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .about-text {
@@ -142,7 +170,7 @@ body {
                         Testimonials
 ========================================================== */
 
-#testimonial-background {
+/*#testimonial-background {
  padding-top: 50px;
  padding-bottom: 50px;
 }
@@ -150,8 +178,7 @@ body {
 #testimonial-background > .container {
  display: flex;
  justify-content: center;
-}
-
+}*/
 
 
  /* ===========================================================
@@ -168,31 +195,54 @@ body {
 }*/
 
 .price-text {
+  display: flex;
   margin: 20px;
-  text-align: center;
+  justify-content: center;
+  font-size: 1.5em;
 }
 
-
-
+#quote {
+  color: white;
+  text-shadow: none;
+  font-size: 1em;
+}
  /* ===========================================================
                        Contact
  ========================================================== */
 
  #contact-background {
    padding-top: 50px;
-   padding-bottom: 50px;
+   padding-bottom: 40px;
    background-color: #3F6470;
    color: white;
  }
 
  #contact-background > .container {
+   margin-top: 20px;
    display: flex;
    justify-content: center;
  }
 
- #contact-base {
-   padding-top: 5px;
-   padding-bottom: 5px;
-   background-color: #314D57;
-   /*background-color: #278AAB;*/
+ .fa-facebook-square, .fa-twitter-square, .fa-instagram {
+   color: white;
+   margin-right: 5px;
+   margin-left: 5px;
+ }
+
+ .fa-facebook-square:hover, .fa-twitter-square:hover, .fa-instagram:hover {
+   color: #55B567;
+ }
+
+ .signature {
+   margin-top: 40px;
+   color: #B6BDBF;
+ }
+
+ .signature > a {
+   color: #D3D9DB;
+ }
+
+ .signature > a:hover {
+   text-decoration: none;
+   color: #55B567;
  }

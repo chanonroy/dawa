@@ -35,7 +35,7 @@
 
       <!-- <a class="main-logo pull-left" href="#"> Himalayan Cleaners</a> -->
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#0">
           <span><img src="static/imgs/hc-logo-plain.png" class="logo"></span>
           <span id="brand-text"> Himalayan <font color="#00cc00"> Cleaners </font></span>
         </a>
@@ -49,11 +49,11 @@
       <!-- Menu Items -->
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Services</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#1">Services</a></li>
+          <li><a href="#2">About</a></li>
           <!-- <li><a href="#">Testimonials</a></li> -->
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#4">Pricing</a></li>
+          <li><a href="#5">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -63,43 +63,49 @@
   <section id="0">
     <div class="jumbotron">
       <div class="jumbo-text">
-        We're passionate about providing the best in eco-friendly cleaning services
+        We're passionate about providing eco-friendly and affordable cleaning services in Ottawa
       </div>
-      <div class="quote-button">
-        Get a Quote
-      </div>
+      <a href="#" class="quote-button"> Get a Quote </a>
     </div>
   </section>
 
-  <section id="1">
+  <section id="1" class="navfix">
 
     <div class="container-fluid text-center">
       <div class="container">
         <div class="row">
-          <h1> Our Services </h1>
+          <h1> Our Specialties </h1>
         </div>
         <div id="services-container" class="row text-center">
           <div class="col-md-3 col-sm-6 col-xs-12 serv-item">
             <i class="fa fa-home fa-5x"></i>
-            <h3> Residential </h3>
-            <p> Donec sed odio dui. Etiam porta sem malesuada </p>
+            <h3> Residential</h3>
+            <p> Houses
+              <br> Apartments
+              <br> Backyards </p>
           </div>
           <div class="col-md-3 col-sm-6 col-xs-12 serv-item">
             <i class="fa fa-building fa-5x"></i>
-            <h3> Commercial </h3>
-            <p> Duis mollis, est non commodo luctus, nisi erat </p>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12 serv-item">
-            <i class="fa fa-shield fa-5x"></i>
-            <h3> Deep Cleaning </h3>
-            <p> Donec sed odio dui. Cras justo odio, dapibus ac </p>
+            <h3> Commercial</h3>
+            <p> Offices
+              <br> Dental Clinics
+              <br> Storefront </p>
           </div>
           <div class="col-md-3 col-sm-6 col-xs-12 serv-item">
             <i class="fa fa-leaf fa-5x"></i>
-            <h3> 100% Eco-Friendly </h3>
-            <p> Cusce dapibus, tellus ac cursus commodo, tortor</p>
+            <h3> Eco-Friendly Tools</h3>
+            <p> Biodegradable
+              <br> Non-toxic
+              <br> Green Certified </p>
           </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 serv-item">
+            <i class="fa fa-star fa-5x"></i>
+            <h3> Customized Service </h3>
+            <p> One-time Service
+              <br> Repeat Service
+              <br> Dry Cleaning </p>
+          </div>
+
           <!-- services column -->
         </div>
         <!-- services row -->
@@ -110,11 +116,13 @@
 
   </section>
 
-  <section id="2">
+  <section id="2" class="navfix">
     <div id="story-background" class="container-fluid">
       <h1> Our Green Story </h1>
       <div class="container">
-        <div class="photograph"></div>
+        <div class="photograph">
+          <img id="norbu" src="static/imgs/norbu.png"/>
+        </div>
         <div class="about-text">
           Dear Friends,
         </div>
@@ -132,7 +140,8 @@
 
           <div class="about-text">
             Kindest Regards,
-            <br><br> Dawa Norbu and Jampa Tsering
+            <br>
+            <br> Dawa Norbu and Jampa Tsering
           </div>
         </div>
       </div>
@@ -148,7 +157,7 @@
     </div>
   </section> -->
 
-  <section id="4">
+  <section id="4" class="navfix">
     <div id="pricing-background" class="container-fluid">
       <h1 class="text-center"> Pricing </h1>
       <div class="container">
@@ -158,22 +167,37 @@
         <div class="price-text">
           Please get in touch with us for a free estimate.
         </div>
-
-
+        <div class="price-text">
+          <a href="#" id="quote" class="quote-button"> Get a Quote </a>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="5">
+  <section id="5" class="navfix">
     <div class="footer">
       <div id="contact-background" class="container-fluid text-center">
-        <h1> Contact </h1>
         <div class="container">
-          This is where to find us
+          <div class="col-sm-4 col-xs-12">
+            <h4>Contact &nbsp;<span class="glyphicon glyphicon-envelope"></span></h4>
+            <p> hcleaners@clean.com <br> (613) 252-3735 </p>
+          </div>
+          <div class="col-sm-4 col-xs-12">
+            <h4> Follow &nbsp;<span class="glyphicon glyphicon-user"></span></h4>
+            <p>
+              <a href="#" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-instagram fa-3x"></i></a>
+            </p>
+          </div>
+          <div class="col-sm-4 col-xs-12">
+            <h4>Location <span class="glyphicon glyphicon-map-marker"></span></h4>
+            <p>831 Borthwick Avenue <br> Ottawa, ON K1K 2M7</p>
+          </div>
         </div>
-      </div>
-      <div id="contact-base" class="container-fluid">
-        Chanon Roy 
+        <div class="signature">
+          Developed by <a href="http://chanonroy.com" target="_blank"> Chanon Roy</a>
+        </div>
       </div>
     </div>
   </section>
@@ -183,7 +207,7 @@
   <!-- Bootstrap JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <!-- Custom JS -->
-  <script src="/static/js/scripts.js"></script>
+  <script src="static/js/scripts.js"></script>
 
 </body>
 
