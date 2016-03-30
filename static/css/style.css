@@ -71,7 +71,8 @@ a {
    align-items: center;
    flex-direction: column;
 
-   background: #000 url("../imgs/mountain.jpg") top;
+   /*background: #4393D9;*/
+   background: #000 url("mountain.jpg") top;
    background-size: cover;
    overflow: hidden;
 
@@ -245,4 +246,13 @@ a {
  .signature > a:hover {
    text-decoration: none;
    color: #55B567;
+ }
+
+ /* ===========================================================
+                       Media Queries
+ ========================================================== */
+
+ @media screen and (max-width: 767px) {
+
+
  }
