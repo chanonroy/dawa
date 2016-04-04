@@ -4,10 +4,12 @@
 <head>
   <meta charset="utf-8">
   <title> Himalayan Cleaners </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <!-- Custom CSS -->
+  <link rel="stylesheet" href="https://npmcdn.com/flickity@1.2/dist/flickity.min.css" media="screen">
   <link rel="stylesheet" href="static/css/style.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -51,7 +53,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#1">Services</a></li>
           <li><a href="#2">About</a></li>
-          <!-- <li><a href="#">Testimonials</a></li> -->
+          <li><a href="#3">Testimonials</a></li>
           <li><a href="#4">Pricing</a></li>
           <li><a href="#5">Contact</a></li>
         </ul>
@@ -148,14 +150,30 @@
     </div>
   </section>
 
-  <!-- <section id="3">
+  <section id="3" class="navfix">
     <div id="testimonial-background" class="container-fluid">
       <h1 class="text-center"> Testimonials </h1>
-      <div class="container">
-        Here is what people are saying about us
-      </div>
+        <div id="testimonial">
+          <div class="carousel-cell">
+            <p>
+              "Excellent service! Friendly and professional staff. My home was so nice and clean when I returned after work - it was a great help after a very busy week! Thank you so much for offering such good service!"
+            </p>
+            <p>
+              Kris Tay, Beechwood,  Ottawa
+            </p>
+          </div>
+          <div class="carousel-cell">
+            <p>
+              "I have employed Himalayan Cleaners at my house for several months and I am very happy with the service. They are punctual, courteous and do a thorough cleaning. Communication about cleanings is easy and friendly. I recommend the Himalayan Cleaners!"
+            </p>
+            <p>
+              Eliza Von Baeyer, Avenue Rd Ottawa
+            </p>
+
+          </div>
+        </div>
     </div>
-  </section> -->
+  </section>
 
   <section id="4" class="navfix">
     <div id="pricing-background" class="container-fluid">
@@ -202,13 +220,13 @@
         </div>
       </div>
     </div>
-    </div>
   </section>
 
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Bootstrap JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.min.js"></script>
   <!-- Custom JS -->
   <script src="static/js/scripts.js"></script>
 

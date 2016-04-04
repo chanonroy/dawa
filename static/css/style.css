@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 a {
@@ -21,7 +21,6 @@ a {
 
 #brand-text {
   color: rgba(35, 106, 189, 0.86);
-  /*font-weight: bold;*/
   font-size: 22px;
   margin-left: 10px;
   margin-bottom: 0;
@@ -76,8 +75,7 @@ a {
    align-items: center;
    flex-direction: column;
 
-   /*background: #4393D9;*/
-   background: #000 url("mountain3.png") no-repeat;
+   background: #4393D9 url("mountain3.png");
    background-size: cover;
    overflow: hidden;
 
@@ -180,15 +178,36 @@ a {
                         Testimonials
 ========================================================== */
 
-/*#testimonial-background {
- padding-top: 50px;
- padding-bottom: 50px;
+#testimonial-background {
+ padding-top: 70px;
+ padding-bottom: 70px;
+ background: #38A0E0;
+ color: white;
 }
 
 #testimonial-background > .container {
  display: flex;
  justify-content: center;
-}*/
+}
+
+.carousel-cell {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px 15%;
+  text-align: center;
+}
+
+.flickity-page-dots .dot {
+  width: 14px;
+  height: 14px;
+  opacity: 0.2;
+}
+
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}
 
 
  /* ===========================================================
@@ -199,10 +218,6 @@ a {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
-/*#pricing-background > .container {
-
-}*/
 
 .price-text {
   display: flex;

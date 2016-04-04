@@ -13,3 +13,10 @@ $(function() {
         }
     });
 });
+
+// flickity carousel
+$('#testimonial').flickity({
+  // options
+  wrapAround: true,
+  prevNextButtons: false,
+});
