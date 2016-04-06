@@ -21,7 +21,7 @@ a {
 
 #brand-text {
   color: rgba(35, 106, 189, 0.86);
-  font-size: 22px;
+  font-size: 1.2em;
   margin-left: 10px;
   margin-bottom: 0;
 }
@@ -38,7 +38,6 @@ a {
 
  .nav.navbar-nav.navbar-right li a { /* Nav links */
   color: rgba(35, 106, 189, 0.86);
-  font-size: 18px;
 }
 .nav.navbar-nav.navbar-right li a:hover { /* Nav links rollover */
   color: #55B567;
@@ -253,6 +252,7 @@ a {
    color: white;
    margin-right: 5px;
    margin-left: 5px;
+   transition: all 0.3s ease;
  }
 
  .fa-facebook-square:hover, .fa-twitter-square:hover, .fa-instagram:hover {
@@ -266,6 +266,7 @@ a {
 
  .signature > a {
    color: #D3D9DB;
+   transition: all 0.3s ease;
  }
 
  .signature > a:hover {
@@ -276,6 +277,12 @@ a {
  /* ===========================================================
                        Media Queries
  ========================================================== */
+
+ @media screen and (min-width: 1000px) {
+   .nav.navbar-nav.navbar-right li a { /* Nav links */
+    font-size: 1.2em;
+  }
+ }
 
  @media screen and (max-width: 767px) {
    .jumbo-text {
@@ -293,5 +300,11 @@ a {
    }
    .foot-item {
      margin-top: 25px;
+   }
+ }
+
+ @media screen and (max-width: 360px) {
+   #brand-text {
+     font-size: 0.9em;
    }
  }
