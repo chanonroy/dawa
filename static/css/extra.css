@@ -1,0 +1,55 @@
+/* ------------ COMMERCIAL ------------- */
+
+#commercial-body {
+    padding-bottom: 50px;
+}
+
+#commercial-jumbo {
+  height: 40vh;
+  background: #4393D9 url("office.jpg");
+  background-size: cover;
+  background-position: top;
+  overflow: hidden;
+}
+
+/* ------------ CUSTOM ------------- */
+
+#custom-body {
+    padding-bottom: 50px;
+}
+
+#custom-jumbo {
+  height: 40vh;
+  background: #4393D9 url("office.jpg");
+  background-size: cover;
+  background-position: top;
+  overflow: hidden;
+}
+
+/* ------------ ECO ------------- */
+
+#eco-body {
+    padding-bottom: 50px;
+}
+
+#eco-jumbo {
+  height: 40vh;
+  background: #4393D9 url("office.jpg");
+  background-size: cover;
+  background-position: top;
+  overflow: hidden;
+}
+
+/* ------------ RES ------------- */
+
+#res-body {
+    padding-bottom: 50px;
+}
+
+#res-jumbo {
+  height: 40vh;
+  background: #4393D9 url("office.jpg");
+  background-size: cover;
+  background-position: top;
+  overflow: hidden;
+}
