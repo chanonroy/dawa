@@ -20,7 +20,7 @@
 
 #custom-jumbo {
   height: 40vh;
-  background: #4393D9 url("office.jpg");
+  background: #4393D9 url("client.jpg");
   background-size: cover;
   background-position: top;
   overflow: hidden;
@@ -34,7 +34,7 @@
 
 #eco-jumbo {
   height: 40vh;
-  background: #4393D9 url("office.jpg");
+  background: #4393D9 url("green.jpg");
   background-size: cover;
   background-position: top;
   overflow: hidden;
@@ -48,8 +48,8 @@
 
 #res-jumbo {
   height: 40vh;
-  background: #4393D9 url("office.jpg");
+  background: #4393D9 url("resx.jpg");
   background-size: cover;
-  background-position: top;
+  background-position: center;
   overflow: hidden;
 }
